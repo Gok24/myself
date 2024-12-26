@@ -39,7 +39,7 @@ body::-webkit-scrollbar{
   display: none;
 }
 .top{
-    padding: 40px;
+    padding: 0px;
     display: flex;
 
     justify-content: space-between;
@@ -428,7 +428,7 @@ a{
     }
   }
 .amin{
-  margin: 0 50px;
+  margin: 0 0px;
 }
 
   @media only screen and (max-width: 768px) {
