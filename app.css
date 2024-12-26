@@ -542,6 +542,29 @@ a{
     .itms p{
       font-size: 14px;
     }
+
+    .fillsec2 > .cont {
+      animation: revealing;
+      animation-timeline: view(block);
+      animation-range: cover -20% cover 22%;
+      margin: 0px;
+      margin-right: 50px;
+      position: relative;
+      padding: 20% 2%;
+      left: 0;
+    }
+    .hd{
+      font-family: DM Sans;
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 90%;
+      margin-bottom: 20px;
+  }
+  .sd{
+      font-size: 18px;
+      font-family: Varela Round;
+      font-weight: 300;
+  }
   }
   .shc{
     width: 300px;
