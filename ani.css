@@ -21,11 +21,13 @@
     background: #ffffff00;
 }
 .aminwrap{
-    padding: 40px 120px;
+    padding: 20px 120px 20px 120px;
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.081);
 }
 .fillsec2 .cont{
     max-width: inherit;
@@ -109,5 +111,4 @@
     font-family: Varela Round;
 
   }
-  
   
