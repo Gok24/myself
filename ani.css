@@ -48,28 +48,27 @@
 .fillsec2 > .cont {
     animation: revealing;
     animation-timeline: view(block);
-    animation-range: cover 0% cover 39%;
-    margin: 0px;
-    position: relative;
+    animation-range: cover 0% cover 50%;
     padding: 0 10%;
-    left: 0;
+    margin: 0px;
   }
   @keyframes revealing {
     from {
       color: gray;
-      /* margin-left: 100vw; */
-      left: 100vw;
+      margin-left: 100vw;
+      /* left: 100vw; */
       filter: blur(50px);
       opacity: 0.5;
     }
     to {
-      /* margin: 0px; */
+      margin-left: 0px;
       /* margin-left: 0px; */
       filter: blur(0px);
-      left: 0;
+      /* left: 0; */
       opacity: 1;
     }
   }
+  /* change media queries to -20% to 22%, change here as 39% */
 
   .fillsec2{
     justify-content: inherit;

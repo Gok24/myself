@@ -555,7 +555,7 @@ a{
     .fillsec2 > .cont {
       animation: revealing;
       animation-timeline: view(block);
-      animation-range: cover -20% cover 22%;
+      animation-range: cover 0% cover 50%;
       margin: 0px;
       margin-right: 50px;
       position: relative;
