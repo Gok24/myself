@@ -756,3 +756,6 @@ a{
   .hsx,.ccx{
     display: none;
   }
+a{
+  all: unset;
+}
